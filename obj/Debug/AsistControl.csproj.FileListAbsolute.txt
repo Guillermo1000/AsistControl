@@ -1,0 +1,10 @@
+C:\Users\UserGPC\OneDrive\Escritorio\Projects Dev\AsistControl\bin\Debug\AsistControl.exe.config
+C:\Users\UserGPC\OneDrive\Escritorio\Projects Dev\AsistControl\bin\Debug\AsistControl.exe
+C:\Users\UserGPC\OneDrive\Escritorio\Projects Dev\AsistControl\bin\Debug\AsistControl.pdb
+C:\Users\UserGPC\OneDrive\Escritorio\Projects Dev\AsistControl\obj\Debug\AsistControl.csproj.AssemblyReference.cache
+C:\Users\UserGPC\OneDrive\Escritorio\Projects Dev\AsistControl\obj\Debug\AsistControl.Properties.Resources.resources
+C:\Users\UserGPC\OneDrive\Escritorio\Projects Dev\AsistControl\obj\Debug\AsistControl.csproj.GenerateResource.cache
+C:\Users\UserGPC\OneDrive\Escritorio\Projects Dev\AsistControl\obj\Debug\AsistControl.csproj.CoreCompileInputs.cache
+C:\Users\UserGPC\OneDrive\Escritorio\Projects Dev\AsistControl\obj\Debug\AsistControl.exe
+C:\Users\UserGPC\OneDrive\Escritorio\Projects Dev\AsistControl\obj\Debug\AsistControl.pdb
+C:\Users\UserGPC\OneDrive\Escritorio\Projects Dev\AsistControl\obj\Debug\AsistControl.Presentacion.MenuPrincipal.resources
