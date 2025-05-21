@@ -10,26 +10,26 @@ using System.Windows.Forms;
 
 namespace AsistControl.Presentacion
 {
-    public partial class MenuPrincipal : Form
+    public partial class Personal : UserControl
     {
-        public MenuPrincipal()
+        public Personal()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void panel4_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void button10_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void MenuPrincipal_Load(object sender, EventArgs e)
+        private void button9_Click(object sender, EventArgs e)
         {
-            panelBienvenida.Dock = DockStyle.Fill;
+
         }
     }
 }
