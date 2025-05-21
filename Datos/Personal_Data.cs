@@ -91,5 +91,50 @@ namespace AsistControl.Datos
                 SQLConnection.Cerrar();
             }
         }
+
+        public void MostrarPersonal(ref DataTable dt, int desde, int hasta)
+        {
+            try
+            {
+                SQLConnection.Abrir();
+                SqlDataAdapter sda = new SqlDataAdapter("MostrarPersonal",SQLConnection.sqlconexion);
+                sda.SelectCommand.CommandType = CommandType.StoredProcedure;
+                sda.SelectCommand.Parameters.AddWithValue("@Desde", desde);
+                sda.SelectCommand.Parameters.AddWithValue("@Hasta", hasta);
+                sda.Fill(dt);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.StackTrace);
+            }
+            finally
+            {
+                SQLConnection.Cerrar();
+            }
+        }
+
+        public void BuscarPersonal(ref DataTable dt, int desde, int hasta, string buscador)
+        {
+            try
+            {
+                SQLConnection.Abrir();
+                SqlDataAdapter sda = new SqlDataAdapter("BuscarPersonal", SQLConnection.sqlconexion);
+                sda.SelectCommand.CommandType = CommandType.StoredProcedure;
+                sda.SelectCommand.Parameters.AddWithValue("@Desde", desde);
+                sda.SelectCommand.Parameters.AddWithValue("@Hasta", hasta);
+                sda.SelectCommand.Parameters.AddWithValue("@Buscador", buscador);
+                sda.Fill(dt);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.StackTrace);
+            }
+            finally
+            {
+                SQLConnection.Cerrar();
+            }
+        }
     }
 }
